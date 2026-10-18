@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0",
+  "projectId": "your-project-id",
+  "sourceLocale": "en",
+  "outputLocales": ["sv", "pl", "ar"],
+  "translationFiles": {
+    "paths": ["src/locales/"],
+    "pattern": "**/*.po",
+    "ignore": []
+  }
+}

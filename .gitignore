@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+src/locales/*/messages.ts
+src/locales/*/messages.d.ts
+src/locales/*/messages.js
+.localhero_key

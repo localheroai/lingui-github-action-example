@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Catalogs match the source code (run `npm run extract` if this fails)
+        run: npx lingui check sync
+
+      - name: Every message has a translation
+        run: npx lingui compile --strict
+
+      - name: Every plural has the forms its language needs
+        run: npm run check:plurals
+
+      - name: Placeholders survive translation
+        run: npx -y @localheroai/cli check --fail-on any
+
+      - name: Build
+        run: npm run build

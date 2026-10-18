@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-10-18 09:31+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ar\n"
+
+#: src/App.tsx:90
+msgid "{memberCount, plural, =0 {No members yet} one {# member} other {# members}}"
+msgstr "{memberCount, plural, =0 {لا يوجد أعضاء بعد} zero {لا يوجد أعضاء} one {عضو واحد} two {عضوان} few {# أعضاء} many {# عضوًا} other {# عضو}}"
+
+#: src/App.tsx:32
+msgid "Admin"
+msgstr "مسؤول"
+
+#: src/App.tsx:33
+msgid "Editor"
+msgstr "محرر"
+
+#: src/App.tsx:131
+msgid "Email address"
+msgstr "البريد الإلكتروني"
+
+#: src/App.tsx:155
+msgid "Invitation sent to {invitedEmail}."
+msgstr "تم إرسال الدعوة إلى {invitedEmail}."
+
+#: src/App.tsx:127
+msgid "Invite someone"
+msgstr "دعوة شخص"
+
+#: src/App.tsx:71
+msgid "Language"
+msgstr "اللغة"
+
+#: src/App.tsx:67
+msgid "Manage who has access to {teamName}."
+msgstr "إدارة من يمكنه الوصول إلى {teamName}."
+
+#: src/App.tsx:87
+msgid "Members"
+msgstr "الأعضاء"
+
+#. Button that removes a person from the team
+#: src/App.tsx:118
+msgid "Remove"
+msgstr "إزالة"
+
+#: src/App.tsx:109
+#: src/App.tsx:140
+msgid "Role"
+msgstr "الدور"
+
+#: src/App.tsx:96
+#: src/App.tsx:97
+msgid "Search members"
+msgstr "البحث في الأعضاء"
+
+#: src/App.tsx:150
+msgid "Send invite"
+msgstr "إرسال الدعوة"
+
+#: src/App.tsx:64
+msgid "Team settings"
+msgstr "إعدادات الفريق"
+
+#: src/App.tsx:34
+msgid "Viewer"
+msgstr "مشاهد"
