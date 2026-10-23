@@ -4,4 +4,5 @@ dist
 src/locales/*/messages.ts
 src/locales/*/messages.d.ts
 src/locales/*/messages.js
-.localhero_key
+
+.localhero_key*
