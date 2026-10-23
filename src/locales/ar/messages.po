@@ -12,6 +12,11 @@ msgstr ""
 msgid "{0, plural, =0 {No pending invites} one {# invite waiting for a reply} other {# invites waiting for a reply}}"
 msgstr "{0, plural, =0 {لا توجد دعوات معلقة} zero {لا توجد دعوات معلقة} one {# دعوة بانتظار الرد} two {# دعوتان بانتظار الرد} few {# دعوات بانتظار الرد} many {# دعوة بانتظار الرد} other {# دعوة بانتظار الرد}}"
 
+#. placeholder {0}: PENDING_INVITES.length
+#: src/App.tsx:185
+msgid "{0, plural, =0 {Nobody has been invited yet, so there is nobody to remind.} one {# person has not accepted their invitation yet, so you may want to send them a reminder.} other {# people have not accepted their invitations yet, so you may want to send them a reminder.}}"
+msgstr "{0, plural, =0 {لم تتم دعوة أحد بعد، لذا لا يوجد أحد لإرسال تذكير إليه.} zero {لم تتم دعوة أحد بعد، لذا لا يوجد أحد لإرسال تذكير إليه.} one {لم يقبل شخص واحد (#) دعوته بعد، لذا قد ترغب في إرسال تذكير إليه.} two {لم يقبل المدعوان (#) دعوتهما بعد، لذا قد ترغب في إرسال تذكير إليهما.} few {لم يقبل # أشخاص دعواتهم بعد، لذا قد ترغب في إرسال تذكير إليهم.} many {لم يقبل # شخصًا دعواتهم بعد، لذا قد ترغب في إرسال تذكير إليهم.} other {لم يقبل # شخص دعواتهم بعد، لذا قد ترغب في إرسال تذكير إليهم.}}"
+
 #: src/App.tsx:92
 msgid "{memberCount, plural, =0 {No members yet} one {# member} other {# members}}"
 msgstr "{memberCount, plural, =0 {لا يوجد أعضاء بعد} zero {لا يوجد أعضاء} one {عضو واحد} two {عضوان} few {# أعضاء} many {# عضوًا} other {# عضو}}"

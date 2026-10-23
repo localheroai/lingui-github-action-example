@@ -12,6 +12,11 @@ msgstr ""
 msgid "{0, plural, =0 {No pending invites} one {# invite waiting for a reply} other {# invites waiting for a reply}}"
 msgstr "{0, plural, =0 {Inga obesvarade inbjudningar} one {# inbjudan väntar på svar} other {# inbjudningar väntar på svar}}"
 
+#. placeholder {0}: PENDING_INVITES.length
+#: src/App.tsx:185
+msgid "{0, plural, =0 {Nobody has been invited yet, so there is nobody to remind.} one {# person has not accepted their invitation yet, so you may want to send them a reminder.} other {# people have not accepted their invitations yet, so you may want to send them a reminder.}}"
+msgstr "{0, plural, =0 {Ingen har bjudits in än, så det finns ingen att påminna.} one {# person har inte accepterat sin inbjudan än, så du kanske vill skicka en påminnelse.} other {# personer har inte accepterat sina inbjudningar än, så du kanske vill skicka dem en påminnelse.}}"
+
 #: src/App.tsx:92
 msgid "{memberCount, plural, =0 {No members yet} one {# member} other {# members}}"
 msgstr "{memberCount, plural, =0 {Inga medlemmar än} one {# medlem} other {# medlemmar}}"
