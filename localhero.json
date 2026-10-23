@@ -1,11 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "projectId": "your-project-id",
+  "projectId": "lingui-github-action-example",
   "sourceLocale": "en",
-  "outputLocales": ["sv", "pl", "ar"],
+  "outputLocales": [
+    "sv",
+    "pl",
+    "ar"
+  ],
   "translationFiles": {
-    "paths": ["src/locales/"],
+    "paths": [
+      "src/locales/"
+    ],
     "pattern": "**/*.po",
     "ignore": []
-  }
+  },
+  "lastSyncedAt": "2026-10-23T08:58:49.015Z"
 }
