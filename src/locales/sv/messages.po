@@ -7,65 +7,87 @@ msgstr ""
 "X-Generator: @lingui/cli\n"
 "Language: sv\n"
 
-#: src/App.tsx:90
+#. placeholder {0}: PENDING_INVITES.length
+#: src/App.tsx:164
+msgid "{0, plural, =0 {No pending invites} one {# invite waiting for a reply} other {# invites waiting for a reply}}"
+msgstr "{0, plural, =0 {Inga obesvarade inbjudningar} one {# inbjudan väntar på svar} other {# inbjudningar väntar på svar}}"
+
+#. placeholder {0}: PENDING_INVITES.length
+#: src/App.tsx:185
+msgid "{0, plural, =0 {Nobody has been invited yet, so there is nobody to remind.} one {# person has not accepted their invitation yet, so you may want to send them a reminder.} other {# people have not accepted their invitations yet, so you may want to send them a reminder.}}"
+msgstr "{0, plural, =0 {Ingen har bjudits in än, så det finns ingen att påminna.} one {# person har inte accepterat sin inbjudan än, så du kanske vill skicka en påminnelse.} other {# personer har inte accepterat sina inbjudningar än, så du kanske vill skicka dem en påminnelse.}}"
+
+#: src/App.tsx:92
 msgid "{memberCount, plural, =0 {No members yet} one {# member} other {# members}}"
 msgstr "{memberCount, plural, =0 {Inga medlemmar än} one {# medlem} other {# medlemmar}}"
 
-#: src/App.tsx:32
+#: src/App.tsx:34
 msgid "Admin"
 msgstr "Administratör"
 
-#: src/App.tsx:33
+#: src/App.tsx:35
 msgid "Editor"
 msgstr "Redaktör"
 
-#: src/App.tsx:131
+#: src/App.tsx:133
 msgid "Email address"
 msgstr "E-postadress"
 
-#: src/App.tsx:155
+#: src/App.tsx:157
 msgid "Invitation sent to {invitedEmail}."
 msgstr "Inbjudan skickad till {invitedEmail}."
 
-#: src/App.tsx:127
+#: src/App.tsx:129
 msgid "Invite someone"
 msgstr "Bjud in någon"
 
-#: src/App.tsx:71
+#: src/App.tsx:73
 msgid "Language"
 msgstr "Språk"
 
-#: src/App.tsx:67
+#: src/App.tsx:69
 msgid "Manage who has access to {teamName}."
 msgstr "Hantera vem som har åtkomst till {teamName}."
 
-#: src/App.tsx:87
+#: src/App.tsx:89
 msgid "Members"
 msgstr "Medlemmar"
 
+#: src/App.tsx:161
+msgid "Pending invites"
+msgstr "Obesvarade inbjudningar"
+
 #. Button that removes a person from the team
-#: src/App.tsx:118
+#: src/App.tsx:120
 msgid "Remove"
 msgstr "Ta bort"
 
-#: src/App.tsx:109
-#: src/App.tsx:140
+#: src/App.tsx:176
+msgid "Resend"
+msgstr "Skicka igen"
+
+#: src/App.tsx:179
+msgid "Revoke"
+msgstr "Återkalla"
+
+#: src/App.tsx:111
+#: src/App.tsx:142
 msgid "Role"
 msgstr "Roll"
 
-#: src/App.tsx:96
-#: src/App.tsx:97
+#: src/App.tsx:98
+#: src/App.tsx:99
 msgid "Search members"
 msgstr "Sök medlemmar"
 
-#: src/App.tsx:150
+#: src/App.tsx:152
 msgid "Send invite"
 msgstr "Skicka inbjudan"
 
-#: src/App.tsx:64
+#: src/App.tsx:66
 msgid "Team settings"
 msgstr "Teaminställningar"
 
-#: src/App.tsx:34
+#: src/App.tsx:36
 msgid "Viewer"
 msgstr "Läsare"

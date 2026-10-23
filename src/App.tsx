@@ -14,6 +14,8 @@ const ROLES: Role[] = ["admin", "editor", "viewer"];
 
 const TEAM_NAME = "Northwind";
 
+const PENDING_INVITES = ["maja@northwind.example", "tomasz@northwind.example"];
+
 const INITIAL_MEMBERS: Member[] = [
   { name: "Ada Lovelace", email: "ada@northwind.example", role: "admin" },
   { name: "Grace Hopper", email: "grace@northwind.example", role: "editor" },
@@ -155,6 +157,38 @@ export function App() {
             <Trans>Invitation sent to {invitedEmail}.</Trans>
           </p>
         )}
+        <h3>
+          <Trans>Pending invites</Trans>
+        </h3>
+        <p className="count">
+          <Plural
+            value={PENDING_INVITES.length}
+            _0="No pending invites"
+            one="# invite waiting for a reply"
+            other="# invites waiting for a reply"
+          />
+        </p>
+        <ul>
+          {PENDING_INVITES.map((email) => (
+            <li key={email}>
+              <span>{email}</span>
+              <button type="button">
+                <Trans>Resend</Trans>
+              </button>
+              <button type="button">
+                <Trans>Revoke</Trans>
+              </button>
+            </li>
+          ))}
+        </ul>
+        <p className="count">
+          <Plural
+            value={PENDING_INVITES.length}
+            _0="Nobody has been invited yet, so there is nobody to remind."
+            one="# person has not accepted their invitation yet, so you may want to send them a reminder."
+            other="# people have not accepted their invitations yet, so you may want to send them a reminder."
+          />
+        </p>
       </section>
     </main>
   );
