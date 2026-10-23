@@ -10,11 +10,7 @@ msgstr ""
 #. placeholder {0}: PENDING_INVITES.length
 #: src/App.tsx:164
 msgid "{0, plural, =0 {No pending invites} one {# invite waiting for a reply} other {# invites waiting for a reply}}"
-msgstr ""
-"{0, plural, =0 {Brak oczekujących zaproszeń} one {# "
-"zaproszenie czeka na odpowiedź} few {# zaproszenia czekają "
-"na odpowiedź} many {# zaproszeń czeka na odpowiedź} other {# "
-"zaproszenia czeka na odpowiedź}}"
+msgstr "{0, plural, =0 {Brak oczekujących zaproszeń} one {# zaproszenie czeka na odpowiedź} few {# zaproszenia czekają na odpowiedź} many {# zaproszeń czeka na odpowiedź} other {# zaproszenia czeka na odpowiedź}}"
 
 #: src/App.tsx:92
 msgid "{memberCount, plural, =0 {No members yet} one {# member} other {# members}}"
