@@ -181,6 +181,14 @@ export function App() {
             </li>
           ))}
         </ul>
+        <p className="count">
+          <Plural
+            value={PENDING_INVITES.length}
+            _0="Nobody has been invited yet, so there is nobody to remind."
+            one="# person has not accepted their invitation yet, so you may want to send them a reminder."
+            other="# people have not accepted their invitations yet, so you may want to send them a reminder."
+          />
+        </p>
       </section>
     </main>
   );
